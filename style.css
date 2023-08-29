@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: #E5E4E2;
+}
+
+.header {
+  padding: 60px 60px 40px 60px;
+  text-align: center;
+  background: #6A5ACD;
+  color: white;
+  font-size: 30px;
+}
+
+li{
+  display: inline;
+  padding:10px
+}
+
+a{color:white;
+  text-decoration: none;
+  
+}
+
+.floatParent{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px;  
+}
+
+.floatChild{
+margin:20px;
+
+}
+
+.floatChild, ul{
+  margin-left:-50px;
+  margin-right:80px
+}
+
