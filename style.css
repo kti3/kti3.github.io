@@ -33,12 +33,13 @@ a{color:white;
 }
 
 .floatChild{
-margin:20px;
+margin:px;
+
 
 }
 
 .floatChild, ul{
   margin-left:-50px;
-  margin-right:80px
+  margin-right:80px;
+  text-align: left;
 }
-
